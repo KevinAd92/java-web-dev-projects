@@ -6,8 +6,10 @@ public class Area {
         Scanner input = new Scanner(System.in);
         System.out.println("enter a radius?");
         Double radius = input.nextDouble();
-       // if ( radius == ){
-       // }
+       //if ( Double.isNaN(radius)) {
+           //System.out.println("A numerical value is needed, please enter a radius");
+           //radius = input.nextDouble();
+//}
         while (radius <= 0) {
             System.out.println("Incorrect value with a radius of " + radius + " an area cannot be found.");
             System.out.println("Enter a radius");

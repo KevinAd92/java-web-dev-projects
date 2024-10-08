@@ -7,8 +7,8 @@ public class Cat {
     // The biological family for all cat species
     private String family = "Felidae";
 
-    public Cat (double aWeight) {
-        weight = aWeight;
+    public Cat (double aWight) {
+        weight = weight;
     }
 
     /**** Getters and Setters ****/

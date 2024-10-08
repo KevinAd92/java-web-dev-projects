@@ -5,7 +5,10 @@ public class HouseCat extends Cat {
     public HouseCat(String aName, double aWeight) {
         super(aWeight);
         name = aName;
+
     }
+
+
 
     public boolean isSatisfied() {
         return !isHungry() && !isTired();
